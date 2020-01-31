@@ -16,4 +16,5 @@ and just run the 'jam' command.
 * boxes.mod - how to use boxes for testing life forms
 * eyes.mod - eyes looking at the mouse
 * resources.mod - how to organize resources
+* cue.mod - how to create commands and trigger time-bound events
 
