@@ -14,4 +14,6 @@ and just run the 'jam' command.
 * brownian.mod - a simulation of brownian motion by a dot
 * shapes.mod - draws various shapes in different colors
 * boxes.mod - how to use boxes for testing life forms
+* eyes.mod - eyes looking at the mouse
+* resources.mod - how to organize resources
 
