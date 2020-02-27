@@ -13,6 +13,7 @@ and just run the 'jam' command.
 
 * brownian.mod - a simulation of brownian motion by a dot
 * circle.mod - simple moving circle
+* planet.mod - bouncing planet texture
 * shapes.mod - draws various shapes in different colors
 * boxes.mod - how to use boxes for testing life forms
 * eyes.mod - eyes looking at the mouse
