@@ -2,3 +2,5 @@
 # MacOS X
 .DS_Store
 
+# collider.jam
+types.ts

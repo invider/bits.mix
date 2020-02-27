@@ -18,9 +18,9 @@ const defaults = {
     },
 }
 
-function onSpawn(st) {
+function onSpawn(settings) {
     augment(this, defaults)
-    augment(this, st)
+    augment(this, settings)
 }
 
 function draw() {
