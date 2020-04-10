@@ -21,7 +21,6 @@ function evo(dt) {
 }
 
 function draw() {
-    background('#101010') // color in hex RGB
     lineWidth(2)
     stroke(.12, .4, .5)   // color in float HSL
     circle(x, y, r)

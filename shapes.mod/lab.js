@@ -1,6 +1,4 @@
 function draw() {
-    background(.8, .07, .15)
-
     // calculate some initial dimentions
     // to use later
     const r = rx(.2)

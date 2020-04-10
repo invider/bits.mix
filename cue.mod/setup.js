@@ -5,5 +5,4 @@ function setup() {
         r: ry(.05),
         color: hsl(.3, .4, .4)
     })
-
 }

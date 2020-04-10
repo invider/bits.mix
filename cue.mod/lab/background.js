@@ -1,3 +1,5 @@
+const Z = 0
+
 function draw() {
     background(.1, .1, .2)
 

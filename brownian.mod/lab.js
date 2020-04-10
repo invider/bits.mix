@@ -10,6 +10,10 @@ const st = {
     speed: 0,
 }
 
+function setup() {
+    delete this.background
+}
+
 function evo(dt) {
     // move the dot
     st.x = st.x + cos(st.dir) * st.speed * dt
