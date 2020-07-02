@@ -1,6 +1,9 @@
 
 # MacOS X
-.DS_Store
+*.DS_Store
 
 # collider.jam
+out
+dist
 types.ts
+*.cache
