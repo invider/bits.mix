@@ -12,7 +12,8 @@ and just run the 'jam' command.
 ## Included Mods
 
 * brownian.mod - a simulation of brownian motion by a dot
-* circle.mod - simple moving circle
+* mover.mod - a circle that moves horizontally
+* circle.mod - simple bouncing circle
 * planet.mod - bouncing planet texture
 * shapes.mod - draws various shapes in different colors
 * boxes.mod - how to use boxes for testing life forms
