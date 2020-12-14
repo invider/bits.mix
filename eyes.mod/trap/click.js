@@ -14,6 +14,6 @@ function click(e) {
         x: mouse.x,
         y: mouse.y,
         hr: rx(d[0]),
-        vr: ry(d[1]),
+        vr: rx(d[1]),
     })
 }
