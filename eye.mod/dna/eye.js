@@ -18,7 +18,9 @@ const defaults = {
     },
 }
 
-function onSpawn(settings) {
+let id = 0
+function onClone(settings) {
+    this.name = 'eye' + (++id)
     augment(this, defaults)
     augment(this, settings)
 }
@@ -38,12 +40,12 @@ function draw() {
     // iris
     fill(iris.color)
     const ishift = min(hr * iris.shift, d)
-    ellipse( x + ishift * sin(dir), y + ishift * cos(dir),
+    ellipse( x + ishift * cos(dir), y + ishift * sin(dir),
                 hr * iris.size, vr * iris.size )
 
     // pupil
     fill(pupil.color)
     const pshift = min(hr * pupil.shift, d)
-    ellipse( x + pshift * sin(dir), y + pshift * cos(dir),
+    ellipse( x + pshift * cos(dir), y + pshift * sin(dir),
                 hr * pupil.size, vr * pupil.size )
 }

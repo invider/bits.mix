@@ -7,8 +7,8 @@ const def = {
         [.05, .07],
     ]
 }
-function click(e) {
 
+function click(e) {
     const d = lib.math.rnde(def.dimentions)
     lab.spawn('eye', {
         x: mouse.x,
