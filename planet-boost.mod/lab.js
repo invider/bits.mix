@@ -11,7 +11,7 @@ function init() {
 }
 
 function boost(mouseX, mouseY) {
-    if (!this.booster && dist(x, y, mouseX, mouseY) <= r) {
+    if (!this.booster && distance(x, y, mouseX, mouseY) <= r) {
         dx *= 1.2
         dy *= 1.2
         this.booster = true
